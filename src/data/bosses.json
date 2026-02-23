@@ -1,0 +1,909 @@
+{
+  "bosses": [
+    {
+      "id": "roberto",
+      "name": "Roberto",
+      "world": "Wizard City",
+      "location": "Olde Town – Roberto's Lair",
+      "school": "Balance",
+      "key_type": "Wooden",
+      "health": 1200,
+      "rank": "Boss",
+      "description": "The first skeleton key boss most wizards encounter. A thief who locked himself inside his own lair. Tied to the quest 'Unlocking the Truth' for Diego the Duelmaster.",
+      "cheats": [
+        "No special cheat mechanics — straightforward combat appropriate for low-level wizards.",
+        "Has a minion that provides basic attack support but no cheat behavior."
+      ],
+      "notable_drops": [
+        "7-Day Mounts: Enchanted Broom, Horned Sweeper, Purple Glider",
+        "Roberto's Rapier (wand)",
+        "Novice's or Adept's Socket Wrench",
+        "Wooden Skeleton Key"
+      ],
+      "minions": []
+    },
+    {
+      "id": "spirit_of_ignorance",
+      "name": "Spirit of Ignorance",
+      "world": "Wizard City",
+      "location": "Crab Alley – immediately to the right of the entrance rope from Triton Avenue, next to NPC Herman",
+      "school": "Death",
+      "key_type": "Gold",
+      "health": 12425,
+      "rank": "Boss (Rank 20 at Tier 4)",
+      "description": "Originally a Wooden Key boss at launch, revamped in Summer 2022 to a tiered Gold Key boss. Has a minion trio of Life, Death, and Fire. Features a school-blocking immunity aura requiring a Balance wizard to remove, plus a hard enrage timer.",
+      "cheats": [
+        "Immunity Aura: At the start of combat places a -300% accuracy aura on all wizards blocking their own school spells — requires a Balance wizard to cast Supernova to remove it.",
+        "If the aura is dispelled or replaced, immediately reapplies it to the wizard who interfered.",
+        "After Supernova removes the aura, instantly reapplies Aegis-protected Tower Shields on itself requiring Pierce or Shatter before damage connects.",
+        "Recasts its shields every single time it is hit — Pierce or Shatter must be used consistently throughout the fight.",
+        "Instantly removes all player charms (blades) and wards (traps) from the battlefield every round.",
+        "Places a Shadow Deferred Overtime Damage on the entire team that triggers an instant-kill after approximately 6–8 rounds if the boss is not defeated — functions as a hard enrage timer forcing quick kills.",
+        "Feckless Soul minion cheat: If a wizard joins the duel late after it has started, the Feckless Soul immediately steals one pip from that wizard."
+      ],
+      "notable_drops": [
+        "~16 Ravenwood Rangers Lore Pack spellements per run",
+        "School Design Elegant Set gear",
+        "Purple Fairy Wings mount (7-Day and 1-Day versions)",
+        "Rhapsodist's Cap (popular stitching gear)",
+        "Wooden and Stone Skeleton Keys",
+        "Badge: Dispeller of Ignorance"
+      ],
+      "minions": [
+        {
+          "name": "Life Feckless Soul",
+          "health": 4860,
+          "cheats": ["Steals one pip from any wizard who joins the battle after it has already started."]
+        },
+        {
+          "name": "Death Feckless Soul",
+          "health": 4590,
+          "cheats": ["Casts Death-school drain spells."]
+        },
+        {
+          "name": "Fire Feckless Soul",
+          "health": 4270,
+          "cheats": ["Casts Fire-school attack spells."]
+        }
+      ]
+    },
+    {
+      "id": "simon_the_sayer",
+      "name": "Simon the Sayer",
+      "world": "Wizard City",
+      "location": "Sunken City – Simon's Workshop (near the entrance from Nightside)",
+      "school": "Storm",
+      "key_type": "Stone",
+      "health": 12960,
+      "rank": "Boss (Rank 12)",
+      "description": "A Make-A-Wish boss designed by a real player named Daniel. Features Simon Says mechanics and a unique external NPC (Daniel) who casts support spells from outside the battle circle — a mechanic unique in all of Wizard101.",
+      "cheats": [
+        "Tardiness cheat: If a wizard joins the duel after round 2, Simon immediately casts Mana Burn on them draining all pips — ensure the entire team joins before round 2 begins.",
+        "Removes any blade cast directly on yourself — never self-blade; only blade your hitter via a teammate.",
+        "Blades cast by one wizard on a different wizard (friend-blades) are NOT removed and work normally.",
+        "Daniel (external NPC standing outside the battle circle) begins casting +30% universal traps on all enemies starting from round 3, providing free trap setup every round without spending pips.",
+        "Daniel randomly casts an AoE Fairy heal on the entire team during the fight, providing unexpected burst healing."
+      ],
+      "notable_drops": [
+        "Unique hairstyles: The Dreamweaver, The Manticore, The Restless Titan, The Raven Eye",
+        "Daniel's Answer of Life wand (5% pierce)",
+        "School-specific swords with glowing particle effects",
+        "Mote of Severity",
+        "Couch Potato seeds",
+        "7-Day Mounts: Ancient Koy, Bat Wings, Hippogriff, Purple Glider",
+        "White King Chesspiece (housing item)",
+        "Fierce Hound pet",
+        "Stone Skeleton Keys",
+        "Badge: Simon's Bane"
+      ],
+      "minions": [
+        {
+          "name": "Heartburner Golem",
+          "health": 2360,
+          "cheats": ["Casts Fire-school attack spells; no reactive cheat behavior."]
+        },
+        {
+          "name": "Virulent Gas Golem",
+          "health": 2860,
+          "cheats": ["Casts Life-school support spells; no reactive cheat behavior."]
+        }
+      ]
+    },
+    {
+      "id": "fellspawn",
+      "name": "Fellspawn",
+      "world": "Wizard City",
+      "location": "The Catacombs – Fathomless Tomb (left corridor, opposite Viggor's Tomb)",
+      "school": "Storm / Moon",
+      "key_type": "Gold",
+      "health": 30000,
+      "rank": "Boss (Rank 18)",
+      "description": "A dual-phase boss in the Catacombs that alternates between Storm and Moon phases, each locking out a different combat action type. Awards increasingly prestigious badges based on total number of lifetime defeats.",
+      "cheats": [
+        "Call of Khrulhu tardiness cheat: If a wizard joins the battle after round 2 (including fleeing and returning), Fellspawn immediately interrupts and casts Call of Khrulhu draining all pips from that wizard.",
+        "Storm Phase blade lock: While in Storm phase ALL wizards are completely unable to cast any charms (blades) — attempting to cast a blade causes it to be instantly countered or removed.",
+        "Moon Phase trap lock: While in Moon phase ALL wizards are completely unable to place new wards (traps) on Fellspawn — any traps already on Fellspawn before the phase shift are NOT removed and will still trigger normally.",
+        "Phases alternate throughout the fight — strategically pre-place traps before phase shifts, and hold blades for Storm phase turns.",
+        "Weakness and Bad Juju (outgoing damage reduction debuffs) are viable and not countered by either phase — effective at reducing incoming damage.",
+        "Minions deal significant independent damage each round and should ideally be handled by a secondary hitter while the main hitter focuses on Fellspawn."
+      ],
+      "notable_drops": [
+        "Vanguard's Gear set (Vanguard's Shocking Boots and other pieces)",
+        "Dragoon's Gear set",
+        "Gold Skeleton Keys",
+        "Progressive badge system — badge name and prestige level increases with cumulative number of defeats"
+      ],
+      "minions": [
+        {
+          "name": "Catacombs Minion",
+          "health": 10000,
+          "cheats": ["Attacks every round with consistent damage; assign a secondary hitter to manage minions."]
+        }
+      ]
+    },
+    {
+      "id": "krampus",
+      "name": "Krampus",
+      "world": "Wizard City",
+      "location": "Krampusgarten — accessed via the Festive Yuletide Hall in Ravenwood. Also appears at Colossus Boulevard, Celestia Base Camp, and Walruskberg Harbor during the event.",
+      "school": "Ice",
+      "key_type": "All (Wooden, Stone, Gold — one separate instance per key tier)",
+      "health": "Scales by tier",
+      "rank": "Boss",
+      "description": "Seasonal boss only available during the 12 Days of the Spiral Christmas event. Three dungeon instances exist, one per key type. All tiers share the same cheat mechanics.",
+      "cheats": [
+        "Removes any blade cast directly on yourself — NEVER self-blade; any self-charm is immediately stolen.",
+        "Blades cast by one wizard on a different wizard (friend-blades) are completely safe and will NOT be removed.",
+        "Feint cheat: If any wizard casts Feint of any kind (regular Feint, Mass Feint, or Indemnity Feint), Krampus immediately retaliates with Beguile on that wizard turning them against the party — DO NOT USE FEINT under any circumstances.",
+        "Aegis enchantment exception: The hitter may safely self-blade using Aegis as the enchantment protects the blade from Krampus's removal cheat.",
+        "Optimal strategy: Hitter enters last. Team friend-blades the hitter for rounds 1–2. Hitter one-shots on round 3. The goal is a clean 3-round kill."
+      ],
+      "notable_drops": [
+        "Krampus' Tolltaker wand",
+        "Candy-Cane mounts: Blue, Green, and Red (permanent)",
+        "Maple Moose pet",
+        "Snowball pet",
+        "Yuletide Wood Paneling (housing item)",
+        "Christmas-themed seeds",
+        "Wooden, Stone, or Gold Skeleton Key depending on which tier was fought",
+        "Seasonal availability only — during 12 Days of the Spiral event"
+      ],
+      "minions": []
+    },
+    {
+      "id": "sapoti",
+      "name": "Sapoti",
+      "world": "Krokotopia",
+      "location": "The Oasis – Sapoti's Landing (Sapoti's Treasure Chamber)",
+      "school": "Fire",
+      "key_type": "Wooden",
+      "health": 2500,
+      "rank": "Boss",
+      "description": "A master thief who accidentally locked himself inside his own treasure chamber alongside his minion. Low-level boss appropriate for early Krokotopia players.",
+      "cheats": [
+        "No special cheat mechanics — purely straightforward combat with no blade/trap removal or reactive cheats.",
+        "Sapoti's minion assists with basic attacks but also has no cheat behavior."
+      ],
+      "notable_drops": [
+        "Level 15 wands including Fenix Ashen Staff (2% damage)",
+        "Foxy Dragon pet",
+        "Krokotopian housing items",
+        "Adept's or Expert's Socket Wrench",
+        "Wooden Skeleton Keys",
+        "Badge: Sapoti's Savior"
+      ],
+      "minions": [
+        {
+          "name": "Sapoti's Minion",
+          "health": 800,
+          "cheats": ["No special cheats — basic attacker."]
+        }
+      ]
+    },
+    {
+      "id": "ra",
+      "name": "Ra",
+      "world": "Krokotopia",
+      "location": "The Oasis – Ra's Reading Room (inside the Library in the Oasis)",
+      "school": "Balance",
+      "key_type": "Wooden",
+      "health": 3750,
+      "rank": "Boss",
+      "description": "The sun god Ra as a skeleton key boss in the Krokotopian library. Famous for accuracy-disrupting cheats that cause mass fizzle if not countered. Extremely popular for farming pack-tier mounts.",
+      "cheats": [
+        "Casts Guidance or Smokescreen on the entire team applying a -45% accuracy debuff — counter by purchasing Keen Eyes treasure cards from the Krokotopia Library shop for 50 gold each, or by equipping accuracy-boosting gear.",
+        "Minions (Sia, Hu, and Heka) represent Life, Fire, and Balance schools and provide support throughout the fight but have no reactive cheat mechanics.",
+        "No blade removal or trap removal mechanics — standard blade/trap/Feint strategy works fine once the accuracy debuff is countered."
+      ],
+      "notable_drops": [
+        "Pack-tier mounts: Camel, Crokagator, Mander Palanquin, Moonlight / Starlight / Starshine / Sunshine Ponies",
+        "Level 20 Crowns gear and wands",
+        "Krokotopian housing items",
+        "Amber reagent",
+        "Mummy Cat pet",
+        "Key Lime and Sunion seeds",
+        "Adept's or Expert's Socket Wrench",
+        "Wooden Skeleton Keys",
+        "Badge: Reading Room Roustabout"
+      ],
+      "minions": [
+        {
+          "name": "Sia the Perceiver",
+          "health": 1150,
+          "cheats": ["Casts Life-school support spells; no reactive cheat behavior."]
+        },
+        {
+          "name": "Hu the Commander",
+          "health": 1000,
+          "cheats": ["Casts Fire-school attack spells; no reactive cheat behavior."]
+        },
+        {
+          "name": "Heka the Haruspect",
+          "health": 900,
+          "cheats": ["Casts Balance-school spells; no reactive cheat behavior."]
+        }
+      ]
+    },
+    {
+      "id": "temple_phantom",
+      "name": "Temple Phantom",
+      "world": "Krokotopia",
+      "location": "Kembaalung Village – Hollow Mountain (after the first fight with Hoof Ninjas in Hamakala's Mausoleum)",
+      "school": "Balance",
+      "key_type": "Wooden",
+      "health": 4200,
+      "rank": "Boss",
+      "description": "A phantom guardian of Hollow Mountain in Kembaalung. Notable primarily for dropping the Band of Harmony Ring, the only ring in the entire Spiral granting 2% universal resistance to Balance damage.",
+      "cheats": [
+        "No special cheat mechanics.",
+        "Standard combat — blade/trap/Feint strategy is effective."
+      ],
+      "notable_drops": [
+        "Gold, Blue, or Silver Kirin mount",
+        "Band of Harmony Ring (2% universal Balance resistance — unique in the Spiral)",
+        "Wooden Skeleton Keys",
+        "Badge: Phantom's Menace"
+      ],
+      "minions": []
+    },
+    {
+      "id": "inzhizor",
+      "name": "In'Zhizor",
+      "world": "Krokotopia",
+      "location": "Lower Zigazag – Stone Key Room (after the first fight with Ravenous Teeth)",
+      "school": "Ice",
+      "key_type": "Stone",
+      "health": 7320,
+      "rank": "Boss",
+      "description": "An Ice boss accompanied by three Death minions. No cheat mechanics but the volume of 4 enemies creates a tanking challenge demanding efficient AoE management.",
+      "cheats": [
+        "No cheat mechanics of any kind — purely a tank-and-damage challenge.",
+        "The three Death minions each independently cast drain spells and Weakness debuffs on wizards — use AoE spells to damage all enemies simultaneously or assign a secondary hitter to manage minions while the main hitter focuses on In'Zhizor."
+      ],
+      "notable_drops": [
+        "38% block / 2% pierce wands including Eternal Verses of Anubis",
+        "8% damage athames including Ammit's Claw of Revolution",
+        "Sailback Skink pet",
+        "Mote of Severity",
+        "Wooden Skeleton Keys",
+        "Badge: In'Zhizor's Undoing"
+      ],
+      "minions": [
+        {
+          "name": "Condemned Soul (x3)",
+          "health": 1970,
+          "cheats": ["Each casts Death drain spells and Weakness on wizards; no reactive cheat behavior."]
+        }
+      ]
+    },
+    {
+      "id": "bellosh",
+      "name": "Bellosh",
+      "world": "Krokotopia",
+      "location": "Upper Zigazag – House of Scales (after the second fight with Condemned Soldiers)",
+      "school": "Balance",
+      "key_type": "Stone",
+      "health": 15000,
+      "rank": "Boss",
+      "description": "One of the most popular original skeleton key bosses at launch. Bellosh is Belloq's cousin and shares his Ra cheat. Level 60+ difficulty. Famous for dropping the permanent Mander Palanquin mount.",
+      "cheats": [
+        "Ra cheat: If NO wizard deals damage to Bellosh during a given round, he immediately casts Ra — at least one wizard MUST hit Bellosh for any amount of damage every single round without exception.",
+        "No blade removal or trap removal mechanics — all blades and traps are freely usable.",
+        "The mandatory-hit requirement makes stall or setup-heavy strategies risky; hit as quickly as possible."
+      ],
+      "notable_drops": [
+        "Permanent Mander Palanquin mount",
+        "Level 60 Deck with 1% Accuracy and Triangle Socket (unique item)",
+        "Mote of Severity",
+        "Stone Skeleton Keys",
+        "Badge: Caged the Elephant"
+      ],
+      "minions": []
+    },
+    {
+      "id": "billy_the_cutter",
+      "name": "Billy the Cutter",
+      "world": "Marleybone",
+      "location": "Barkingham Palace – State Wing (after the second fight with Enfield Tricksters)",
+      "school": "Storm",
+      "key_type": "Wooden",
+      "health": 5500,
+      "rank": "Boss",
+      "description": "A Barkingham Palace criminal with a shield-stealing mechanic. An easy fight as long as players avoid casting any wards on themselves or their team.",
+      "cheats": [
+        "Shield theft: Immediately steals any ward (shield) cast on any wizard and absorbs it for himself — DO NOT cast Tower Shields, school Shields, or any other protective wards during this fight.",
+        "The absence of shields means the team is fully exposed — one-shot the boss as quickly as possible to minimize incoming damage."
+      ],
+      "notable_drops": [
+        "Level 40 rings including Jackall's Ring of Duality (5% Storm damage)",
+        "Dapper Corgi pet",
+        "Wooden Skeleton Keys",
+        "Badge: Cutter's Bane"
+      ],
+      "minions": []
+    },
+    {
+      "id": "takanobu_the_masterless",
+      "name": "Takanobu the Masterless",
+      "world": "MooShu",
+      "location": "Cave of Solitude – Cave of Solitude Skeleton Key Room",
+      "school": "Storm",
+      "key_type": "Gold",
+      "health": 15375,
+      "rank": "Boss",
+      "description": "A highly reactive MooShu samurai boss with multiple school-based cheat triggers from his minion. Originally a Wooden Key boss, reclassified to Gold Key with tiered difficulty in Summer 2022. Drops the only 1% universal resistance wand in the entire Spiral.",
+      "cheats": [
+        "Storm Shield counter: If any wizard casts a Storm Shield (including within a double-shield or Elemental Shield), Takanobu immediately interrupts and casts Storm Prism on that wizard — avoid all Storm Shields entirely.",
+        "Darkwind bubble: Occasionally interrupts at the start of a round to cast a Storm damage bubble (Darkwind), boosting all Storm spells in the fight.",
+        "Elemental Diffuse reaction ('Guard against the elements!'): If any wizard attacks any enemy using a Fire, Ice, or Storm school spell, the Skirker Buster minion immediately casts Elemental Diffuse (tri-dispel removing Fire/Ice/Storm traps/dispels) on that wizard.",
+        "Spirit Diffuse reaction ('Spirits, guard us!'): If any wizard attacks any enemy using a Life, Death, or Myth school spell, the Skirker Buster minion immediately casts Spirit Diffuse (tri-dispel removing Life/Death/Myth traps/dispels) on that wizard.",
+        "Balance Dispel reaction ('We must stay centered!'): If any wizard attacks any enemy using a Balance school spell, the Skirker Buster minion immediately casts a Balance Dispel on that wizard.",
+        "Strategy: Place hitter last. Stack Feint, Mass Feint, and school traps during setup. Time the hit to fire on the same round the traps are placed (same-round trap-and-hit) to prevent the Diffuse cheats from triggering during setup. Avoid the triggering spell schools on setup rounds."
+      ],
+      "notable_drops": [
+        "Catch of the Day (trainable Storm spell)",
+        "Katana of Takanobu's Wrath wand (1% universal resistance — the only wand of its kind in the Spiral)",
+        "Kimono of Takanobu's Wrath robe",
+        "Takanobu's Footgear of Rage boots",
+        "Mote of Wisdom",
+        "Wooden Skeleton Keys",
+        "Badge: Master of the Masterless"
+      ],
+      "minions": [
+        {
+          "name": "Skirker Buster",
+          "health": 2050,
+          "cheats": [
+            "Casts Elemental Diffuse ('Guard against the elements!') whenever a wizard attacks with a Fire, Ice, or Storm spell.",
+            "Casts Spirit Diffuse ('Spirits, guard us!') whenever a wizard attacks with a Life, Death, or Myth spell.",
+            "Casts Balance Dispel ('We must stay centered!') whenever a wizard attacks with a Balance spell."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "captain_hockins",
+      "name": "Captain Hockins",
+      "world": "Zafaria",
+      "location": "Waterfront – Waterfront Stone Key Room",
+      "school": "Storm",
+      "key_type": "Stone",
+      "health": 9000,
+      "rank": "Boss",
+      "description": "A pirate captain boss in Zafaria who made an ill-fated deal with a Witch Doctor. One of the original 2017 skeleton key bosses.",
+      "cheats": [
+        "No documented major cheat mechanics.",
+        "Standard combat — blade/trap/Feint strategy is sufficient for a clean win."
+      ],
+      "notable_drops": [
+        "Level 70 gear pieces",
+        "Stone Skeleton Keys"
+      ],
+      "minions": []
+    },
+    {
+      "id": "lambent_fire",
+      "name": "Lambent Fire",
+      "world": "Avalon",
+      "location": "Crystal Caves – Crystal Caves Key Room (very close to the dungeon entrance)",
+      "school": "Fire",
+      "key_type": "Gold",
+      "health": 20000,
+      "rank": "Boss (Rank 20 at Tier 4)",
+      "description": "A ghost-fire boss in Avalon's Crystal Caves. Originally Stone Key, reclassified to Gold Key with tiered difficulty in Summer 2022. Minions self-destruct every round and immediately respawn. Has the most extensive set of blade and trap restrictions of any skeleton key boss. Excellent farm for Knight's Pack spellements and the full Radiance gear set.",
+      "cheats": [
+        "Fire Spear self-buff: After Lambent Fire uses any damage spell he immediately interrupts to cast Fire Spear on himself boosting outgoing Fire damage.",
+        "Fireblade theft ('The fire hungers!'): If any wizard casts a Fireblade (including within a tri-blade), Lambent Fire immediately steals it.",
+        "Universal blade theft ('Your edge is mine!'): If any wizard casts a universal blade (Sharp Blade, Bladestorm, etc.), Lambent Fire immediately steals it.",
+        "Non-Fire school blade retaliation ('The spirits of the past strike you down!'): If any wizard casts a school blade from any school OTHER than Fire (including non-Fire tri-blades), Lambent Fire retaliates with a powerful spell on that wizard.",
+        "Universal trap removal and Immolate ('Your world shall burn!'): If any wizard casts a universal trap (Hex, Curse, Feint, Mass Feint) on the boss, Lambent Fire removes the trap and immediately casts Immolate on the trap-caster.",
+        "Minion resurrection ('Come to the light!'): At the end of EVERY round all defeated minions immediately respawn — minions cannot be permanently killed under any circumstances.",
+        "Minion self-immolation ('The fire consumes us!'): Each active minion casts a Natural Attack (~1,000 damage) then immediately self-immolates dealing ~1,800 Fire AoE damage to all wizards — this happens every round each minion is alive.",
+        "Minions can also randomly cast Bad Juju on wizards and Dark Pact (+30% blade) on Lambent Fire.",
+        "Minions can cheat-cast Sacrifice to directly heal Lambent Fire.",
+        "Safe strategy: Use only Fire-specific school blades on the hitter. Avoid universal blades, Feint, and universal traps entirely. Use school-specific traps and execute the hit on the same round they are placed to avoid removal."
+      ],
+      "notable_drops": [
+        "~16–22 Knight's Spellemental Pack spellements per run",
+        "Sacred Charge (Life spell) spellements",
+        "Burning Rampage (Fire spell) spellements",
+        "Full Radiance Gear set (hat, robe, boots)",
+        "Mote of Severity",
+        "Guaranteed gear piece + housing item + Azoth treasure cards per run",
+        "Gold Skeleton Keys",
+        "Badge: Lambent's Damper"
+      ],
+      "minions": [
+        {
+          "name": "Skirker Buster (x3)",
+          "health": 2050,
+          "cheats": [
+            "Casts Natural Attack (~1,000 damage) then self-immolates with Immolate (~1,800 Fire AoE) every round it is alive.",
+            "Randomly casts Bad Juju on wizards.",
+            "Randomly casts Dark Pact (+30% blade) on Lambent Fire.",
+            "Randomly casts Sacrifice to heal Lambent Fire.",
+            "Immediately respawns at end of every round upon defeat — cannot be permanently killed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ixcax_cursedwing",
+      "name": "Ixcax Cursedwing",
+      "world": "Azteca",
+      "location": "Three Points – Black Sun Pyramid Master Chamber – Eternal Sanctum",
+      "school": "Myth",
+      "key_type": "Gold",
+      "health": 18000,
+      "rank": "Boss",
+      "description": "A Myth boss in Azteca's Black Sun Pyramid. Originally Stone Key, reclassified to Gold Key with tiered difficulty in Summer 2022. Aggressively removes all pre-stacked traps and summons minions on death. Popular farm for dinosaur-themed mounts.",
+      "cheats": [
+        "Trap removal each round: Before Ixcax takes damage at the start of each round, he removes ALL traps currently placed on him — do not pre-stack traps; place traps and execute the hit on the exact same round.",
+        "Death spawn: When Ixcax is defeated he summons a wave of Myth minions before dying — bring AoE damage to handle the spawn wave.",
+        "Summons Myth minions mid-fight as reinforcements during combat."
+      ],
+      "notable_drops": [
+        "Dinosaur mounts: Ankylosaurus, Feathered Raptor, Triceratops, Tyrannosaurus Rex, Arcus Cloud, Crokagator, Gold-Wrought Eagle, Jeweled Scarab",
+        "Myth Mastery Amulet",
+        "Competitive athames and rings",
+        "Gold Skeleton Keys",
+        "Badge: Ixnay on the Ixcax"
+      ],
+      "minions": [
+        {
+          "name": "Azteca Myth Minion",
+          "health": 5000,
+          "cheats": ["Attacks normally; a wave of these spawns upon Ixcax's defeat."]
+        }
+      ]
+    },
+    {
+      "id": "bunferatu",
+      "name": "Bunferatu",
+      "world": "Wizard City (Castle Darkmoor)",
+      "location": "Upper Halls – on the spiral staircase after the first dungeon fight",
+      "school": "Death",
+      "key_type": "Gold",
+      "health": 34000,
+      "rank": "Boss",
+      "description": "A vampire-themed Death boss inside Castle Darkmoor's Upper Halls. Features drain healing and a Weakness cheat triggered by early blade usage. Excellent farm for top-tier level 100 damage rings.",
+      "cheats": [
+        "Early blade Weakness: If any wizard casts any blade during rounds 1 or 2, Bunferatu immediately applies Weakness (-25% outgoing damage) to that wizard — blades are only safe to cast from round 3 onward.",
+        "Drain self-healing: Heals himself with every drain spell he casts (Vampire, Scarecrow, etc.) making prolonged fights increasingly difficult as health sustains.",
+        "Optimal strategy: Place hitter last. Blade-ONLY during rounds 1 and 2 — no traps. Place traps and Feint on round 3. Execute the hit on round 4. All blades and traps on the hit round are safe."
+      ],
+      "notable_drops": [
+        "Level 100 rings with 10% damage: Spirit of Darkmoor's Band, Band of the Cold Grave",
+        "School-specific damage rings",
+        "Pets and pet snacks",
+        "Gold Skeleton Keys",
+        "Badge: Bunferatu's Downfall"
+      ],
+      "minions": []
+    },
+    {
+      "id": "aphrodite_ii",
+      "name": "Aphrodite II",
+      "world": "Wizard City (Castle Darkmoor)",
+      "location": "The Graveyard – walk left immediately upon entering the Graveyard instance, past Yevgeny NightCreeper's battle",
+      "school": "Life / Myth / Death (random combination of Tendrils)",
+      "key_type": "Gold",
+      "health": "Up to 4 Tendrils: Life Tendril 25,336 HP | Myth Tendril 15,582 HP | Death Tendril 20,118 HP",
+      "rank": "Boss (randomized multi-tendril encounter)",
+      "description": "One of the most notorious skeleton key bosses in the game. Not a single boss but a randomized combination of up to 4 Life, Myth, and Death Tendrils. Features a mandatory must-hit-every-round enrage mechanic. Best source for Energy gear and top-tier level 100 damage rings in the game. Originally Stone Key at launch, changed to Gold Key.",
+      "cheats": [
+        "Must-hit-every-round enrage ('I am untouched! My spores will spread!'): If any full round passes where NO wizard successfully deals damage to Aphrodite, she immediately casts a DoT dealing 400 damage upfront + 300 damage per round for 3 turns to ALL wizards AND simultaneously applies -30% damage, -40% accuracy, and -50% healing debuffs to the entire team — this cascade is nearly impossible to recover from.",
+        "Designate one dedicated 'spammer' wizard whose sole job is to hit Aphrodite every round with cheap 1–2 pip spells at maximum accuracy — this wizard should use accuracy-boosting gear (Sidhe Wand, Keen Eyes treasure cards) and never be allowed to fizzle for any reason.",
+        "Life Tendril continuously casts Regenerate, Rebirth, and other heavy healing spells on all other Tendrils — Life Tendril must be eliminated first as the top priority target.",
+        "Myth Tendril summons Cyclops minions to flood the battle board — if present, minion management becomes necessary alongside Aphrodite.",
+        "Death Tendril casts Vampire and Scarecrow drain spells on the team — keep the team's health consistently high when Death Tendril is present.",
+        "The spammer wizard hits every single round while remaining teammates coordinate blades and traps around the spammer's cadence — the spammer NEVER stops hitting regardless of setup status."
+      ],
+      "notable_drops": [
+        "BEST ENERGY GEAR IN THE GAME: Energy Ring (+8 energy), Energy Athame (+6 energy), Energy Wand (+10 energy) — full Aphrodite set grants +24 total energy",
+        "Best level 100 school-specific damage rings in the game",
+        "Sacred Charge (trainable Life spell)",
+        "Critical rings with energy bonus",
+        "Gold Skeleton Keys",
+        "Badge: Flower Power"
+      ],
+      "minions": [
+        {
+          "name": "Life Tendril",
+          "health": 25336,
+          "cheats": ["Continuously casts Regenerate and Rebirth to heal all other Tendrils — must be eliminated first to stop the healing cycle."]
+        },
+        {
+          "name": "Myth Tendril",
+          "health": 15582,
+          "cheats": ["Summons Cyclops minions to flood the battle board."]
+        },
+        {
+          "name": "Death Tendril",
+          "health": 20118,
+          "cheats": ["Casts Vampire and Scarecrow drain spells on the team every round."]
+        }
+      ]
+    },
+    {
+      "id": "verboten_mimic",
+      "name": "Verboten Mimic",
+      "world": "Mirage",
+      "location": "Aggrobah – Vault of the Verboten (River District, look for the Skeleton Key Room sigil)",
+      "school": "Shadow (shapeshifter)",
+      "key_type": "Gold",
+      "health": 40000,
+      "rank": "Boss",
+      "description": "A shapeshifting boss that transforms randomly between five different boss forms mid-fight, adopting each form's cheat mechanics. Best source for level 120 critical rings in the game.",
+      "cheats": [
+        "CYRUS DRAKE form: Do NOT cast Feint of any kind — Cyrus immediately retaliates against Feint with a powerful counter. Use blades and school traps freely otherwise.",
+        "GHOST DOG form: Summons minions that must be managed. Feint is safe in this form. Standard combat applies.",
+        "MITHRAYA form: Summons minions mid-fight; AoE spells strongly recommended to clear adds. Feint is safe in this form.",
+        "GOBBLESTONE form: Casts Tower Shield, Legion Shield, and activates a Brace aura — bring Shatter or heavily Pierce-boosted attacks; otherwise damage is massively reduced by stacked shields.",
+        "LUSKA form: Do NOT cast Feint — Luska immediately counters Feint. Shadow spells may trigger additional reactions in this form.",
+        "Minions ONLY appear in Ghost Dog and Mithraya forms; the remaining three forms are single-boss encounters.",
+        "The Mimic transforms randomly each fight — strategy must adapt dynamically based on the observed active form."
+      ],
+      "notable_drops": [
+        "BEST LEVEL 120 CRITICAL RINGS: Drake Ancestral Signet (10% damage, +84 critical rating)",
+        "Sinbad Gear set",
+        "Rare pack mounts",
+        "Gold Skeleton Keys",
+        "Badge: Mimic Muter"
+      ],
+      "minions": [
+        {
+          "name": "Form-dependent minions (Ghost Dog and Mithraya forms only)",
+          "health": "Varies",
+          "cheats": ["Minions only appear in Ghost Dog and Mithraya forms; no minions in Cyrus Drake, Gobblestone, or Luska forms."]
+        }
+      ]
+    },
+    {
+      "id": "omen_stribog",
+      "name": "Omen Stribog",
+      "world": "Polaris",
+      "location": "River of Frozen Tears – Omen's Hideout via Icefall Cavern (take the teleporter, go down the ramp, head right up the hill)",
+      "school": "Shadow",
+      "key_type": "Gold",
+      "health": 40000,
+      "rank": "Boss",
+      "description": "A complex multi-minion Shadow boss widely considered one of the best-designed skeleton key encounters. Features a 99,999 HP Dark Sentinel intercepting 75% of all damage, Feint removal, anti-heal absorb shields, and shadow spell backlash penalties.",
+      "cheats": [
+        "Dark Sentinel 75% intercept: The Dark Sentinel begins the fight with 99,999 HP and intercepts 75% of ALL damage dealt to ANY other enemy — Omen and all other minions only take 25% of incoming damage until the Sentinel is defeated. Trap-stack and eliminate the Sentinel first.",
+        "Feint removal ('We are not so easily fooled!'): Whenever any wizard casts Feint on Omen, he immediately removes the Feint trap from himself — however the self-trap portion of Feint placed on the caster is NOT removed and still triggers normally.",
+        "Tardiness penalty ('Tardiness will not be tolerated!'): If any wizard joins the battle after it has started or flees and re-enters, Omen immediately interrupts to cast Mana Burn on that wizard draining all pips.",
+        "Shadow spell backlash ('You are darkened by shadow as well?'): If any wizard casts a Shadow spell with inherent backlash (excluding shadow-enhanced spells like Glowbug Squall), Omen adds 40 additional backlash to that shadow spell.",
+        "Dark Seraph anti-heal absorb: Whenever ANY wizard casts a healing spell, Dark Seraph immediately places an absorb shield on Omen and all other enemies — healing spells trigger shields on all enemies simultaneously.",
+        "Dark Fiend scaling blades: The Dark Fiend casts improved versions of standard blades on Omen each round (e.g., enhanced Balanceblade scaling to X% per pip).",
+        "Dark Fiend attacks: The Dark Fiend regularly uses high-pip Judgment and Mana Burn to threaten the team."
+      ],
+      "notable_drops": [
+        "Luphilim Wings mount",
+        "Luphilim's Eternal Deck",
+        "Luphilim's Grim Chain Mastery Amulet (health, 6% school resistance, school blade card)",
+        "Full competitive gear set: athames, rings, mastery amulets, decks comparable to or better than Polaris drops",
+        "Polarian housing items: Polarian Well, Lydia's Cold Table",
+        "Mounts: Frostfang Tiger, Himoolayan Yak, Luphilim Wings, Owl, Snow Ram, White Stag, Winter Treant, WinterGlide Skates",
+        "Floe Siren pet, Snowball pet",
+        "Artisan's and Master Socket Wrenches",
+        "Seal Team Assault Helmet (Crown gear)",
+        "Gold Skeleton Keys",
+        "Badge: Omen's Adversary"
+      ],
+      "minions": [
+        {
+          "name": "Dark Seraph",
+          "health": 25000,
+          "cheats": ["Places a high-value absorb shield on Omen and ALL other enemies simultaneously whenever any wizard casts any healing spell."]
+        },
+        {
+          "name": "Dark Fiend",
+          "health": 18000,
+          "cheats": [
+            "Casts improved scaling blades on Omen every round (enhanced Balanceblade at X% per pip).",
+            "Uses high-pip Judgment attacks against the team.",
+            "Uses Mana Burn to drain wizard pips."
+          ]
+        },
+        {
+          "name": "Dark Sentinel",
+          "health": 99999,
+          "cheats": [
+            "Intercepts 75% of all incoming damage dealt to ANY other enemy at fight start — must be killed first to remove the damage reduction from Omen.",
+            "Purely a damage-sponge intercept mechanic with no offensive cheats."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corporal_tennisyn",
+      "name": "Corporal Tenni'syn",
+      "world": "Empyrea",
+      "location": "Zanadu Sewers – Gold Key sigil inside the Zanadu Sewers dungeon",
+      "school": "Storm",
+      "key_type": "Gold",
+      "health": 35000,
+      "rank": "Boss",
+      "description": "A military-themed Storm boss in Empyrea's Zanadu Sewers. Originally Stone Key at launch, reclassified to Gold Key. Drops the best offensive robes for most schools at level 125+.",
+      "cheats": [
+        "No major documented unique cheat mechanics.",
+        "Casts high-damage Storm spells throughout the fight.",
+        "May summon backup fighters if the fight extends beyond several rounds.",
+        "Standard combat — blade/trap/Feint strategy is effective."
+      ],
+      "notable_drops": [
+        "Level 125+ offensive robes for every school except Storm (Storm wizards continue using Malistaire robe)",
+        "Gold Skeleton Keys"
+      ],
+      "minions": []
+    },
+    {
+      "id": "aethyr_elemental",
+      "name": "Aethyr Elemental",
+      "world": "Empyrea",
+      "location": "Northeast Aero Plains – Aero Plains Skeleton Key Room",
+      "school": "Shadow / Ice",
+      "key_type": "Gold",
+      "health": 40000,
+      "rank": "Boss (Rank 18)",
+      "description": "A powerful elemental Shadow/Ice boss in the skies of Empyrea. Originally Stone Key at launch, reclassified to Gold Key.",
+      "cheats": [
+        "Casts heavy Shadow and Ice spells throughout the fight.",
+        "May activate Berserk on itself for periods of significantly increased outgoing damage.",
+        "No confirmed blade removal, trap removal, or Feint counter mechanics."
+      ],
+      "notable_drops": [
+        "Aethyr Cloud mount",
+        "Empyrean-themed housing items",
+        "Dark Hound pet",
+        "Grandmaster Socket Wrench",
+        "Wooden, Stone, and Gold Skeleton Keys"
+      ],
+      "minions": []
+    },
+    {
+      "id": "king_borr",
+      "name": "King Borr",
+      "world": "Grizzleheim",
+      "location": "Savarstaad Pass – near the waterfall by the Teleporter Hub passage to Northguard",
+      "school": "Ice",
+      "key_type": "Gold",
+      "health": 10870,
+      "rank": "Boss (Rank 19 at Tier 4)",
+      "description": "An Ice king boss with his protective minion Grendelynn. Added in Spring 2021 with Wooden, Stone, and Gold key tiers available (later consolidated to Gold Key tiers only). Grendelynn has a 75% damage intercept making Borr nearly untouchable — but Grendelynn cannot be permanently killed before Borr.",
+      "cheats": [
+        "Shadow Sentinel intercept: At the start of combat Grendelynn immediately casts Shadow Sentinel on herself intercepting 75% of all incoming damage to ANY other enemy — until Grendelynn is defeated Borr only takes 25% of incoming damage.",
+        "Grendelynn resurrection: After Grendelynn is defeated she automatically revives — she cannot be permanently killed before King Borr dies.",
+        "If Grendelynn dies before King Borr she revives and immediately recasts Shadow Sentinel restoring the 75% damage intercept — focus ALL damage exclusively on King Borr from start to finish.",
+        "DoT (damage-over-time) spells partially bypass the intercept mechanic — they are one viable tool for chipping Borr down through Grendelynn's intercept.",
+        "Strategy: Ignore Grendelynn entirely. Stack Feint, blades, and traps on King Borr and burst him down. The fight ends instantly when Borr dies regardless of Grendelynn's health."
+      ],
+      "notable_drops": [
+        "Grizzleheim Lore Pack spellements",
+        "Grizzleheim-themed gear",
+        "Wooden, Stone, or Gold Skeleton Key depending on tier fought"
+      ],
+      "minions": [
+        {
+          "name": "Grendelynn",
+          "health": 5375,
+          "cheats": [
+            "Casts Shadow Sentinel at fight start intercepting 75% of all incoming damage to King Borr and other enemies.",
+            "Auto-revives after being defeated — never attack Grendelynn; attack King Borr exclusively."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay_puffed_marshfellow",
+      "name": "Stay-Puffed Marshfellow",
+      "world": "Karamelle",
+      "location": "Nibbleheim Mines – Den of the Marshfellow (go down two sets of stairs from the mines entrance)",
+      "school": "Life",
+      "key_type": "Stone",
+      "health": 25000,
+      "rank": "Boss",
+      "description": "A giant marshmallow Ghostbusters-reference boss added in Spring 2021. A Stone Key boss in Karamelle's mines. Best and essentially only consistent source of Pretzel Sticks and Toffee Bean reagents critical for crafting Karamelle's top-tier gear.",
+      "cheats": [
+        "Hot Potato DoT: At the start of combat and at the start of every fourth round, Marshfellow casts a delayed Damage-over-Time spell on a wizard that detonates for approximately 5,200 damage after four rounds.",
+        "Hot Potato item cards: The targeted wizard simultaneously receives two special item cards — 'Hot Potato Enemy' (pass the DoT to an enemy) and 'Hot Potato Friend' (pass the DoT to a teammate).",
+        "Using the 'Hot Potato Enemy' card on the boss himself transfers the full 5,200 damage back to Marshfellow — this is the intended counter to the cheat and can be used strategically to accelerate the fight."
+      ],
+      "notable_drops": [
+        "Wunderbar Gear set (second-best Karamelle gear; wands comparable to the Uber set)",
+        "Karamelle world spell spellements",
+        "Pretzel Sticks reagent — only consistent farm source in the Spiral; essential for Karamelle Crafted Gear recipe",
+        "Toffee Bean reagent — only consistent farm source in the Spiral; essential for Karamelle Crafted Gear recipe",
+        "Stone Skeleton Keys",
+        "Badges: Harshfellow, Clashfellow, Thrashfellow (awarded for cumulative total Marshfellow defeats)"
+      ],
+      "minions": []
+    },
+    {
+      "id": "high_loremagus",
+      "name": "High Loremagus",
+      "world": "Dragonspyre",
+      "location": "The Atheneum Library – High Loremagus' Antechamber (take the left path immediately upon entering the library)",
+      "school": "Balance",
+      "key_type": "Gold",
+      "health": "Scales by tier",
+      "rank": "Boss",
+      "description": "A Dragonspyre scholar boss added in Summer 2022 with tiered difficulty. Bars wizards from using their own school's spells through a permanent -200% accuracy aura forcing creative off-school play. Best free-to-play source for Jade gear and Keeper's Spellemental Pack lore spells.",
+      "cheats": [
+        "School Accuracy Aura ('Only a true master of lore can defeat me!'): At the start of round 1 places a -200% accuracy aura on ALL wizards preventing anyone from successfully casting spells from their OWN school — Fire wizards cannot cast Fire spells, Death wizards cannot cast Feint or any Death spells, Balance wizards cannot cast any Balance blades or traps, etc.",
+        "Aura reapplication ('You know nothing of lore. Do your research!'): If any wizard attempts to replace or overwrite the -200% accuracy aura, High Loremagus immediately reapplies it to that wizard.",
+        "Feint punishment ('Uh oh... Watch out for vermin!'): If any wizard casts any form of Feint (regular Feint or Mass Feint), High Loremagus immediately summons Camp Bandit on the caster removing the Feint and placing a damaging trap on the caster. NOTE: Balance school Feint does NOT trigger this cheat.",
+        "Strategy: Equip a Mastery Amulet to cast a second school's spells. Use treasure cards from schools other than your own. Supporters must use off-school blades and traps. Avoid regular and Mass Feint entirely."
+      ],
+      "notable_drops": [
+        "~16 Keeper's Spellemental Pack spellements per run: Brimstone Revenant, Keeper of the Flame, Loremaster, Luminous Weaver",
+        "Jade Gear set (hat, robe, boots) — only consistent free-to-play source of full Jade gear",
+        "Keeper's Lore Pack mounts",
+        "Azoth treasure cards (for Guild House upgrades)",
+        "Participation Trophy (if fighting outside your level bracket)",
+        "Gold Skeleton Keys",
+        "Badge: Loremagus Master"
+      ],
+      "minions": []
+    },
+    {
+      "id": "drowned_dan",
+      "name": "Drowned Dan",
+      "world": "Celestia",
+      "location": "Science Center – Arboretum (center of the Celestia map; same tower as side boss Praxus)",
+      "school": "Death",
+      "key_type": "Gold",
+      "health": "Scales by tier",
+      "rank": "Boss",
+      "description": "An undead pirate boss added in Summer 2022 with tiered difficulty. The most puzzle-oriented skeleton key boss in the game. Completely immune to damage until a 4-digit pip code is decoded by defeating minions one at a time and then attacking in the correct pip sequence.",
+      "cheats": [
+        "Invulnerability Aura ('Ye must sink the sams to learn me code!'): Immediately casts a -300% Brace invulnerability aura at the start of round 1 making him completely immune to all damage until the code mechanic is resolved.",
+        "Code reveal mechanic ('The code is #-?-?-?'): At the start of round 2 Dan reveals the first digit of a 4-digit code. Each time a Sunken Sam minion is defeated, the next code digit is revealed at the start of the following round.",
+        "Minions must be killed ONE AT A TIME using SINGLE-TARGET spells ONLY — using AoE to defeat multiple Sunken Sams simultaneously prevents code digits from being properly revealed.",
+        "Code execution: Once all 4 digits are revealed, wizards must hit Dan with spells having EXACTLY those pip costs in the correct left-to-right sequence to deactivate the invulnerability aura.",
+        "Wrong answer reset ('Incorrect! Back to the start with ye!'): Hitting Dan with a wrong pip-cost spell or in the wrong order resets the code entirely and it must be entered again from the beginning.",
+        "Correct completion ('Nooo! My protection!'): After the fourth correct hit in sequence Dan casts a harmless Supernova on himself removing the invulnerability aura — after this he can be damaged normally.",
+        "Strategy: Fill your sideboard with one reliable single-target hit spell per pip value from 1–14 (treasure cards recommended) to guarantee you can match any code digit."
+      ],
+      "notable_drops": [
+        "~14–16 Celestian Spellemental Pack spellements per run: Celestial Intervention, Nautilus Unleashed, Ship of Fools, Spiritual Tribunal",
+        "Guaranteed gear piece + housing item + 3–4 Azoth treasure cards per run",
+        "Celestia-themed gear set",
+        "Celestia-themed housing items",
+        "Feral Zorphie, Ravenous Zorphie, Vicious Zorphie pets",
+        "Celestian Mech mount",
+        "Gold Skeleton Keys",
+        "Badge: Undead Pirate's Scourge"
+      ],
+      "minions": [
+        {
+          "name": "Sunken Sam (x3)",
+          "health": "Scales by tier",
+          "cheats": [
+            "Must each be defeated with a single-target hit only — AoE kills prevent code digit reveals.",
+            "Defeating each Sam reveals one digit of Drowned Dan's 4-digit pip code.",
+            "If all wizards flee the battle the Sunken Sams respawn."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lady_stonegaze",
+      "name": "Lady Stonegaze",
+      "world": "Aquila (Garden of Hesperides, accessed via Wizard City)",
+      "location": "Garden of Hesperides – Stonegaze's Antechamber (only building in the Aquila hub, next to NPC Vesper)",
+      "school": "Myth",
+      "key_type": "Gold",
+      "health": "Scales by tier (Tier 1: 2,700 HP | Tier 4: ~40,000 HP)",
+      "rank": "Boss",
+      "description": "A Medusa-themed Myth gorgon boss added in Summer 2022 with tiered difficulty. Entirely built around never directly targeting the boss — any spell aimed at Lady Stonegaze results in a 99-round Polymorph-into-statue. She fights herself via the Blindfolded Hit cards she distributes.",
+      "cheats": [
+        "Statue Polymorph ('Haha! Another statue for my garden!'): If ANY wizard casts ANY spell that targets Lady Stonegaze — single-target spells, AoE spells, global spells, Feint, traps, or ANY targeting spell of any type — she immediately Polymorphs the caster into a Wizard Statue for 99 rounds.",
+        "The Wizard Statue polymorph replaces the afflicted wizard's entire deck with 77 Pass cards and ONE 'Break Free (Myth)' card with only 50% base accuracy — if Break Free fizzles it returns to the deck and must be found by searching through all 77 Pass cards again.",
+        "Full health restore on wrong-spell damage: If Lady Stonegaze takes damage from any spell other than a Blindfolded Hit she provided, she immediately uses a Moon version of Blessing to restore 100% of her maximum health.",
+        "Blindfolded Hit distribution: At the start of every other round Lady Stonegaze gives ALL non-polymorphed wizards one school-specific Blindfolded Hit item card (one version exists per school). These cards cost 0 pips and can cast a randomized variety of spells including shadow-enhanced hits.",
+        "Strategy: NEVER cast any spell targeting Lady Stonegaze yourself. Only use the Blindfolded Hit cards she distributes to deal damage. Fill all other turns with self-buffs and friend-buffs — Frenzy, Dark Pact, Balance Blade, Spirit Blade, Elemental Blade, and Bladestorm all stack effectively. The fight is soloable and highly relaxed once the core rule is understood."
+      ],
+      "notable_drops": [
+        "~14–20 Immortal's Spellemental Pack spellements per run: Athena Battle Sight, Hephaestus, Queen Calypso",
+        "Guaranteed piece of Aquila gear per run",
+        "Aquila-themed housing items: Ember Stone of Tartarus, Nine Fathoms Pedestal, Underworld Brazier, Hades the Unseen Mural, Banner of Apollo",
+        "Aquilan Dual Chariot mount (permanent, rare drop)",
+        "Li'l Siren pet, Enchanted Armament pet",
+        "Gold Skeleton Keys",
+        "Badge: Gorgon Grappler"
+      ],
+      "minions": []
+    },
+    {
+      "id": "baron_von_bracken",
+      "name": "Baron von Bracken",
+      "world": "Wysteria",
+      "location": "Pigswick Academy – Garden of the Baron (inside the main Pigswick Academy building)",
+      "school": "Life",
+      "key_type": "Gold",
+      "health": "Scales by tier",
+      "rank": "Boss",
+      "description": "A powerful plant baron added in Summer 2022 with tiered difficulty. Requires a single overwhelming hit that exceeds 50% of his max health — any weaker damage triggers a complete health reset. The only free-to-play source for Wysteria Spellemental Pack spellements including the highly sought-after Pigsie.",
+      "cheats": [
+        "Health reset on weak hits ('Nature Will Always Find a Way!'): If a wizard deals damage totaling LESS than 50% of Baron von Bracken's maximum health in a single attack, he immediately casts a Moon version of Blessing restoring 100% of his max health and uses Shadow Triage to cleanse debuffs.",
+        "DoT-only spell trigger: Casting a Damage-over-Time spell that has no initial upfront hit (such as Scald alone without a leading attack) also triggers the 50% threshold cheat and resets his health.",
+        "One-shot requirement: The ONLY way to defeat him is dealing more than 50% of his total health in a single attack ('Curses!' is his response when the threshold is correctly exceeded).",
+        "Self-buffing: Casts a protected Deathblade (+40%) and Deathspear (+10%) on himself requiring the team to Shatter or Pierce through his self-applied buffs.",
+        "Strategy: Build absolute maximum blade and trap stacks (Feint, Mass Feint, school-specific traps, all available blades) before committing. Execute a single powerful hit that overwhelmingly exceeds 50% of his health in one go."
+      ],
+      "notable_drops": [
+        "~14–16 Wysteria Spellemental Pack spellements per run: Pigsie (Life), Ninja Piglets (Balance), Angry Snowpig (Ice)",
+        "Wysteria Warrior's Gear set (hat, robe, boots, wand) for your level bracket",
+        "Wysteria-themed housing items",
+        "Fantastic Unicorn mount (permanent, rare drop)",
+        "Mystic Unicorn mount (permanent, rare drop)",
+        "Azoth treasure cards",
+        "Gold Skeleton Keys",
+        "Badge: Bracken Clearer"
+      ],
+      "minions": []
+    },
+    {
+      "id": "general_lightbane",
+      "name": "General Lightbane",
+      "world": "Khrysalis",
+      "location": "Last Wood – Lair of Lightbane (Gold Key sigil)",
+      "school": "Shadow",
+      "key_type": "Gold",
+      "health": "Scales by tier; effectively immune to normal damage through ~300% inherent resistance",
+      "rank": "Boss",
+      "description": "A Shadow general added in Fall 2023 as the most mechanically complex skeleton key boss. Has extreme damage resistance making standard attacks nearly useless. Designed to be defeated via accumulated backlash by summoning minions that define a spell category — players must cast the OPPOSITE spell type each phase to build backlash against Lightbane. Also susceptible to a high-pierce one-shot cheese method.",
+      "cheats": [
+        "Extreme innate resistance: General Lightbane has approximately 300% damage resistance making him nearly immune to standard damage — the intended win condition is killing him via his own backlash, not through direct damage.",
+        "Phase opener ('Scour the Light and Raise the Shadow!'): At the start of round 1 and after each attack Lightbane casts an accelerated Shadow buff sequence on himself: +40% Shadowblade end of round 1, Shadowspear and Shadow Trap in round 2, then attacks.",
+        "Minion summoning and phase definition: Each phase Lightbane summons one specific type of minion via Shadow spell. The minion type announces which spell category Lightbane will use and which OPPOSITE spell type the team must cast to trigger +10 backlash per round.",
+        "Backlash triggers by minion type — 'Beware, my thrall, of Damage' (Frenzied Shrike): cast Weakness or outgoing damage reductions | 'Beware, my thrall, of HOTs' (Mending Trickster): cast DOT spells | 'Beware, my thrall, of DOTs' (Sly Trickster): cast HOT heal-over-time spells | 'Beware, my thrall, of Charms' (Charming Trickster): cast Curses or Weakness | 'Beware, my thrall, of Curses' (Cursed Shrike): cast Charms or Blades | 'Beware, my thrall, of Wards' (Mighty Sentinel): cast Jinxes or Traps | 'Beware, my thrall, of Jinxes' (Trapper Shrike): cast Mass Feint or Shields | 'Beware, my thrall, of Pacify' (Mollifying Sentinel): cast Taunt | 'Beware, my thrall, of Taunts' (Mocking Sentinel): cast Pacify | 'Beware, my thrall, of Globals' (Seraph of Sacred Ground): cast opposite global or avoid bubbles | 'Beware, my thrall, of Auras' (Seraph of Blessings): avoid casting auras.",
+        "Correct counter ('Nah'): Casting the right opposite spell type causes Lightbane to say 'Nah' and gain +10 backlash instead of -10 — accumulate enough backlash over multiple rounds to kill him.",
+        "Wrong counter ('Your magic feeds the Shadow!'): Casting the wrong spell type in response causes Lightbane to gain power instead of taking backlash.",
+        "Cheese/pierce alternative: Wizards with sufficient Pierce, stacked blades, Feint, and high-damage spells (particularly Incindiate + Scald combinations) can bypass the backlash mechanic entirely by overwhelming his resistance through raw piercing damage — requires very high pierce investment."
+      ],
+      "notable_drops": [
+        "3–5 pieces of Burrower's Rebellion Pack gear per run (previously Crown Shop exclusive)",
+        "~23+ Burrower's Rebellion spellements per run spread across all 7 schools",
+        "Burrower's Rebellion-themed housing items",
+        "Insect-themed mounts",
+        "Khrysalis Divine spellements",
+        "Gold Skeleton Keys",
+        "Badge: Main Lightbane Bane"
+      ],
+      "minions": [
+        {
+          "name": "Phase-specific minion (one active at a time, type varies per phase)",
+          "health": "Scales by tier",
+          "cheats": [
+            "The active minion type defines which spell category Lightbane uses that phase and what the team must cast to trigger backlash.",
+            "Possible minion types: Frenzied Shrike, Mending Trickster, Sly Trickster, Charming Trickster, Cursed Shrike, Mighty Sentinel, Trapper Shrike, Mollifying Sentinel, Mocking Sentinel, Seraph of Sacred Ground, Seraph of Blessings.",
+            "Lightbane replaces the active minion with a new type each phase cycle."
+          ]
+        }
+      ]
+    }
+  ]
+}
